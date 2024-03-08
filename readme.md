@@ -9,20 +9,6 @@
 
 ![status](https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-green)
 
-## ⚙️ Funcionalidades
-
-- [] Funcionalidade 1:
-  - [] Entidade 1
-  - [x] Entidade 2
-  - [x] Entidade 3
-  - [x] Entidade 4:
-    - Item 1
-    - Item 2
-
-- [x] Funcionalidade 1:
-  - [x] Entidade 1
-  - [x] Entidade 2
-
 ---
 
 ## **Utilitários**
