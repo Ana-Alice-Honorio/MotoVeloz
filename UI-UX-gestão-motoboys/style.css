@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wgt@400;600;900&display=swap");
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: "Poppins", sans-serif;
+}
+
+body {
+    padding-top: 150px;
+    background-color: #f4f4f4;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    color: black;
+    background-color: #fff;
+  }
+  
+  .logo {
+    display: flex;
+    font-size: 40px;
+    font-weight: 400;
+    color: #1c8080;
+    letter-spacing: 3px;
+    cursor: pointer;
+  }
+
+  .point {
+    font-size: 50px;
+    color: #ff1d44;
+  }
+
+  .navItems {
+    display: flex;
+  }
+  
+  .navItems li {
+    list-style: none;
+    margin: 0 15px;
+  }
+  
+  .navItems li a {
+    font-size: 20px;
+    color: #1c8080;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  .navItems li:hover a,
+  .links a:hover {
+    color: #56a292 ;
+  }
+  
+  .links a {
+    font-size: 20px;
+    color: #1c8080;
+    margin: 25px 10px;
+  }  
+
+.container,
+.footer {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #1c8080;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.motoboy {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.motoboy-actions {
+   padding-top: 8px;
+}
+
+.motoboy-actions button {
+    height: 30px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #1c8080;
+    color: #fff;
+}
+
+.motoboy-actions button:hover {
+    background-color:#56a292;
+}
+
+p {
+    color: #1c8080;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #1c8080;
+}

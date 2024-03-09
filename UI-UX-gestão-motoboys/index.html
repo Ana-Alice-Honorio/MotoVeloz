@@ -4,11 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MotoVeloz</title>
+    <link rel="icon" type="image/x-icon" href="./images/delivery.png" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    crossorigin="anonymous"
+  />
     <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
+
+    <nav>
+        <div class="logo"><img src="./images/delivery.png"/>MotoVeloz<strong class="point">•</strong></div>
+        <ul class="navItems">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Nossos Serviços</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+
+        <div class="links">
+          <a href="#"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="#"
+            ><i class="fab fa-youtube"></i
+          ></a>
+          <a href="#"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        </div>
+      </nav>
+
     <div class="container">
-        <h1>Gestão de Motoboys na MotoVeloz</h1>
+        <h1>Gestão de Motoboys</h1>
         <div class="motoboy" onclick="toggleDetails(this)">
             <p><strong>Nome:</strong> João da Silva</p>
             <div class="motoboy-info">
@@ -20,6 +51,7 @@
                     <button>Excluir</button>
                 </div>
             </div>
+       
         </div>
         <div class="motoboy" onclick="toggleDetails(this)">
             <p><strong>Nome:</strong> Maria Oliveira</p>
@@ -32,6 +64,7 @@
                     <button>Excluir</button>
                 </div>
             </div>
+       
         </div>
         <div class="motoboy" onclick="toggleDetails(this)">
             <p><strong>Nome:</strong> Ana Maria</p>
@@ -44,6 +77,7 @@
                     <button>Excluir</button>
                 </div>
             </div>
+            
         </div>
         <div class="motoboy" onclick="toggleDetails(this)">
             <p><strong>Nome:</strong> Matheus Alves</p>
@@ -59,6 +93,7 @@
         </div>
     </div>
 
+    <footer class="footer">&copy;MotoVeloz</footer>
     <script>
         function toggleDetails(element) {
             var details = element.querySelector('.motoboy-info');
